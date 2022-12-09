@@ -1,0 +1,10 @@
+bomberman
+*.o
+*.so
+Makefile
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+vgcore.*
+save/map.txt
+save/players.txt
