@@ -6,6 +6,10 @@ set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
 
 include_directories(cmake_modules)
 
+include(${CMAKE_SOURCE_DIR}/build/conanbuildinfo.cmake)
+conan_basic_setup(TARGETS KEEP_RPATHS)
+set(CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib")
+
 set(SFML_DIR "${CMAKE_CURRENT_LIST_DIR}/include/Graphic/SFML")
 
 set(PATH_MODULE_Irrlicht "${CMAKE_MODULE_PATH}/IrrLicht")
@@ -23,6 +27,15 @@ include_directories(include/Graphic/SFML)
 include_directories(include/Graphic/Irrlicht)
 
 link_directories(include/Graphic/SFML/lib)
+
+#set(Boost_USE_STATIC_LIBS        ON)
+#set(Boost_USE_MULTITHREADED      ON)
+#set(Boost_USE_STATIC_RUNTIME    OFF)
+set(Boost_LIBRARY_DIR C:/local/boost_1_80_0/boost_1_80_0/libs)
+set(Boost_INCLUDE_DIR C:/local/boost_1_80_0/boost_1_80_0)
+find_package(Boost REQUIRED)
+include_directories(${Boost_INCLUDE_DIR})
+link_directories(${Boost_LIBRARY_DIR})
 
 add_executable(bomberman
             include/Indie.hpp
@@ -49,7 +62,10 @@ add_executable(bomberman
             src/Game/Save.cpp
 )
 
-target_link_libraries(bomberman ${Irrlicht_LIBRARIES} sfml-audio boost_system boost_timer boost_chrono rt)
+target_link_libraries(bomberman ${Irrlicht_LIBRARIES} sfml-audio)
+conan_target_link_libraries(bomberman ${CONAN_LIBS})
+
+
 
 if (!WIN32)
     target_compile_options(bomberman PRIVATE -g3)

@@ -1,0 +1,14 @@
+[requires]
+boost/1.80.0
+
+[generators]
+cmake
+
+[options]
+*:shared=True
+
+[imports]
+lib, *.so* -> lib
+bin, *.dll -> bin
+lib, *.dylib* -> bin
+include, *.h* -> include

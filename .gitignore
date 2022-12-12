@@ -7,4 +7,8 @@ CMakeCache.txt
 cmake_install.cmake
 vgcore.*
 save/map.txt
-save/players.txt
+save/players.txtCMakeSettings.json
+.vs
+build
+out
+CMakeSettings.json

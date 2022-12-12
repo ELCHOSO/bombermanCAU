@@ -8,6 +8,7 @@
 #ifndef GAMEOBJECT_HPP_
 #define GAMEOBJECT_HPP_
 
+#undef snprintf
 #include <boost/chrono.hpp>
 
 namespace game{
