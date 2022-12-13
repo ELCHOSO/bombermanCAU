@@ -13,7 +13,6 @@
 #  Irrlicht_INCLUDE_DIRS - the Irrlicht include directory
 #  Irrlicht_LIBRARIES - Link these to use Irrlicht
 #
-# Author: Guillaume DEVOILLE <guillaume1.devoille@epitech.eu> (17/05/2019)
 #
 
 IF (NOT Irrlicht_INCLUDE_DIRS OR NOT Irrlicht_LIBRARIES)

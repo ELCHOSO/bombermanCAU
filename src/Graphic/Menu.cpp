@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** IndieStudio
-** File description:
-** Menu
-*/
-
 #include "Graphic.hpp"
 #include "Menu.hpp"
 

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** indie_studio
-** File description:
-** PlayerObject
-*/
-
 #include "Game.hpp"
 
 void game::Bomberman::createPlayers(void) noexcept

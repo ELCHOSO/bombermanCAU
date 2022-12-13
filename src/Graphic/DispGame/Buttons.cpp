@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** B-YEP_IndieStudio
-** File description:
-** Buttons
-*/
-
 #include "DispGame.hpp"
 
 void graph::Game::createPauseButtons(irr::IrrlichtDevice *window) noexcept

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** IndieStudio
-** File description:
-** EventReceiver
-*/
-
 #include "Graphic.hpp"
 
 graph::EventReceiver::EventReceiver(irr::IrrlichtDevice *window, graph::Graphic &graph) noexcept : _window(window), _graph(graph), _keyIsDown()

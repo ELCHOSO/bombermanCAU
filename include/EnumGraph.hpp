@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** IndieStudio
-** File description:
-** enumGraph
-*/
-
 #ifndef ENUMGRAPH_HPP_
 #define ENUMGRAPH_HPP_
 

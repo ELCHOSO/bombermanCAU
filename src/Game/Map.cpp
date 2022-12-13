@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** Indie studio
-** File description:
-** map functions.
-*/
-
 #include "Game.hpp"
 
 static char changeBlock(int i, int y)

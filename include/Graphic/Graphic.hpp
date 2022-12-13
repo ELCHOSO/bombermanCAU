@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** IndieStudio
-** File description:
-** Graphic
-*/
-
 #ifndef GRAPHIC_HPP_
 #define GRAPHIC_HPP_
 

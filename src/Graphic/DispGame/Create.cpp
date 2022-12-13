@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** B-YEP_IndieStudio
-** File description:
-** CreateMap
-*/
-
 #include "DispGame.hpp"
 
 static float convertToX(float posx)

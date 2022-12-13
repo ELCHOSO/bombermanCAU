@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** B-YEP_IndieStudio
-** File description:
-** Display
-*/
-
 #include "Graphic.hpp"
 #include "Menu.hpp"
 #include "DispGame.hpp"

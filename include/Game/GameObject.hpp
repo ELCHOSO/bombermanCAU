@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** Indie studio
-** File description:
-** Bomberman include files.
-*/
-
 #ifndef GAMEOBJECT_HPP_
 #define GAMEOBJECT_HPP_
 

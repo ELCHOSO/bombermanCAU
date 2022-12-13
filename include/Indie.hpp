@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** IndieStudio
-** File description:
-** Indie
-*/
-
 #ifndef INDIE_HPP_
 #define INDIE_HPP_
 

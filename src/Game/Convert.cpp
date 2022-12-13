@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** Indie studio
-** File description:
-** convert and save functions.
-*/
-
 #include "Game.hpp"
 
 void game::Bomberman::convertToObject(void) noexcept

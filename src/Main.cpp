@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** IndieStudio
-** File description:
-** Main
-*/
-
 #include "Indie.hpp"
 #include "Graphic.hpp"
 #include "Game.hpp"

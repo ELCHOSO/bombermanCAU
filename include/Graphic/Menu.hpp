@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** B-YEP_indie
-** File description:
-** Menu
-*/
-
 #ifndef MENU_HPP_
 #define MENU_HPP_
 

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2o2*
-** Indie studio
-** File description:
-** GameObject class file.
-*/
-
 #include "GameObject.hpp"
 
 game::GameObject::GameObject(game::Type type)

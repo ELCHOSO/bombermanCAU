@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** indie_studio
-** File description:
-** Save
-*/
-
 #include "Game.hpp"
 #include <fstream>
 #include <iostream>

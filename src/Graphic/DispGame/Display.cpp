@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** B-YEP_IndieStudio
-** File description:
-** Display
-*/
-
 #include "DispGame.hpp"
 
 void graph::Game::draw(irr::IrrlichtDevice *window, std::vector<game::PlayerObject *> players, std::vector<std::vector<game::GameObject *>> map) noexcept

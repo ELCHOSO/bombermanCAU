@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** indie_studio
-** File description:
-** PlayerObject
-*/
-
 #include "PlayerObject.hpp"
 
 float game::PlayerObject::getX(void) const noexcept

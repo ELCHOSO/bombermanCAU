@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** B-YEP_indie
-** File description:
-** Player
-*/
-
 #include "DispGame.hpp"
 
 graph::Player::Player(irr::IrrlichtDevice *_window, int rotation, int posx, int posy, std::string name) noexcept

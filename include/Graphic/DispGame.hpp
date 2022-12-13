@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** B-YEP_indie
-** File description:
-** DispGame
-*/
-
 #ifndef DISPGAME_HPP_
 #define DISPGAME_HPP_
 

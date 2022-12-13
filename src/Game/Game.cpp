@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2o2*
-** Indie studio
-** File description:
-** Bomberman game.
-*/
-
 #include "Game.hpp"
 
 game::Bomberman::Bomberman(int players, bool load) : _playerNbr(players), _load(load)

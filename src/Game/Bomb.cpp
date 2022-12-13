@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** Indie studio
-** File description:
-** Bombe functions.
-*/
-
 #include "Game.hpp"
 
 void game::Bomberman::checkIsPlayerDead(int i, int y) noexcept
